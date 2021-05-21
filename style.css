@@ -1,0 +1,74 @@
+body {
+background-color: white;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+}
+h1 {
+    color: violet;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 100;
+font-size: 50px;
+}
+h2 {
+    color: cornflowerblue;
+    font-family: cursive;
+}
+a {
+    text-decoration: none;
+    color: greenyellow;
+}
+a:hover {
+    color: grey;
+}
+/* custom design with class */
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+} 
+.img-circle {
+    border-radius: 50%;
+
+}
+.btn-blue {
+    background-color: royalblue;
+    padding: 15px 20px;
+
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.img-fcb {
+    width: 40px;
+    height: 40px;
+    margin: 5px 2px;
+    padding: 15px;
+}
+.img-insta {
+    width: 60px;
+    height: 40px;
+    margin: 5px 2px;
+    padding: 15px;
+}
+.img-tumblr {
+    width: 30px;
+    height: 30px;
+    margin: 5px 2px;
+    padding: 15px;
+}
